@@ -34,3 +34,26 @@ nav ul li{
 .navbar-nav > li > a:hover{
   border-bottom: 0.1875rem solid #f9ab00;
 }
+
+/****************************------Header------*****************************************/
+
+.header-wraper{
+  position: relative;
+  background-image: url(bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-info h1{
+  color: #f9ab00;
+}
