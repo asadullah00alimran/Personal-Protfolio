@@ -1,0 +1,29 @@
+
+/****************************------Navbar------*****************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+  width: 13.625rem;
+}
+nav a.nav-link{
+  letter-spacing: 0.0370rem;
+  cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.navbar-nav > li > a{
+  color: #fff !important;
+  margin-right: 0.70rem;
+  margin-left: 0.68rem;
+  border-bottom: 00.1875rem solid rgba(255, 255, 255, 0);
+}
+.navbar-brand{
+  max-width: 14.25rem;
+  padding: 0 !important;
+  height: 3.5rem !important;
+}
