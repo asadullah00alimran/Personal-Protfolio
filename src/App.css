@@ -27,3 +27,10 @@ nav ul li{
   padding: 0 !important;
   height: 3.5rem !important;
 }
+.navbar-nav > li > a.active, .navbar-nav > li > a:active:focus{
+  border-bottom: 0.1875rem solid #f9ab00;
+
+}
+.navbar-nav > li > a:hover{
+  border-bottom: 0.1875rem solid #f9ab00;
+}
